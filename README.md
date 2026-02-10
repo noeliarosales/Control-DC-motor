@@ -16,6 +16,9 @@ This includes:
 
 📁 Relevant files:
 - Simulink models: [`motor_model/simulink`](models/Motor_1.slx)
-- MATLAB scripts: [`modelado_planta/scripts_matlab`](modelado_planta/scripts_matlab)
+- MATLAB scripts:
+[`parameter_identification/scripts_matlab`](scripts/motor_identification.m)
+[`parameter_identification/scripts_matlab`](scripts/motor_identification_data.mat)
+[`parameter_identification/scripts_matlab`](scripts/motor_model.mlx)
 
 ---
