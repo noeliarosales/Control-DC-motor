@@ -8,7 +8,7 @@ The project is structured in three main stages, progressing from parameter ident
 
 ## 1. Motor Parameter Identification and Real Motor Modeling
 
-In this stage, the parameters of the real DC motor are experimentally identified. In particular, the motor constant \( k_e \) and the damping coefficient \( p \) are obtained from measured data.
+In this stage, the parameters of the real DC motor are experimentally identified. In particular, the motor constant ke and the damping coefficient p are obtained from measured data.
 
 Based on these parameters, a model of the real motor is built in Simulink, including:
 - A motor block representing the identified dynamics
