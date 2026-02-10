@@ -1,19 +1,19 @@
-# Control and Identification of a DC Motor Using Simulink and Real-Time Hardware
+# Control of a DC Motor Using Identification and State Feedback
 
-This repository contains the development of a control-oriented model of a real DC motor, its parameter identification, and the final integration with the physical motor available in the laboratory.
+This repository presents the modeling, identification, and real-time control of a DC motor using MATLAB/Simulink and laboratory hardware.
 
-The project was carried out in three main stages, progressing from modeling to real-time validation.
+The project is structured in three main stages, progressing from parameter identification to real-time validation.
 
 ---
 
-### 1. Modeling of the Real System
-The first stage focused on modeling the real physical system in order to enable its connection with the laboratory motor.
+## 1. Motor Parameter Identification and Real Motor Modeling
 
-This includes:
-- Development of a mathematical model suitable for control design
-- Implementation of the model in **Simulink**
-- Validation of the model structure before hardware integration
-- Identify key parameters
+In this stage, the parameters of the real DC motor are experimentally identified. In particular, the motor constant \( k_e \) and the damping coefficient \( p \) are obtained from measured data.
+
+Based on these parameters, a model of the real motor is built in Simulink, including:
+- A motor block representing the identified dynamics
+- Encoder blocks for position and velocity measurements
+- Interface blocks for connection with the real laboratory motor
 
 📁 Relevant files:
 - Simulink models: [`motor_model/simulink`](models/Motor_1.slx)
