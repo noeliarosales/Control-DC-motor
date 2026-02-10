@@ -20,5 +20,8 @@ This includes:
 [`parameter_identification/scripts_matlab`](scripts/motor_identification.m)
 [`parameter_identification/scripts_matlab`](scripts/motor_identification_data.mat)
 [`parameter_identification/scripts_matlab`](scripts/motor_model.mlx)
-
+- Images:
+['Encoders'](images/encoders.png)
+['Motor_block'](images/Motor_block.jpg)
+['Motor_model'](images/Motor_Simulink)
 ---
