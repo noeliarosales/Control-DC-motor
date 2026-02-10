@@ -13,6 +13,7 @@ This includes:
 - Development of a mathematical model suitable for control design
 - Implementation of the model in **Simulink**
 - Validation of the model structure before hardware integration
+- Identify key parameters
 
 📁 Relevant files:
 - Simulink models: [`motor_model/simulink`](models/Motor_1.slx)
