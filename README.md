@@ -15,7 +15,7 @@ This includes:
 - Validation of the model structure before hardware integration
 
 📁 Relevant files:
-- Simulink models: [`motor_model/simulink`](modelado_planta/simulink)
+- Simulink models: [`motor_model/simulink`](models/Motor_1.slx)
 - MATLAB scripts: [`modelado_planta/scripts_matlab`](modelado_planta/scripts_matlab)
 
 ---
