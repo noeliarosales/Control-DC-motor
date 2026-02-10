@@ -27,3 +27,15 @@ Based on these parameters, a model of the real motor is built in Simulink, inclu
 [Encoders](images/Encoders.png)
 
 ---
+## 2. Motor Modeling and State Feedback Control
+
+Using the identified parameters, the motor is modeled in state-space form. State feedback control is designed and implemented, including:
+- Full-state feedback
+- State feedback using estimated states
+- Observer-based control strategies
+
+The control algorithms are implemented and tested in Simulink.
+
+📁 Relevant files and models:
+- Control-oriented Simulink models:  
+  [`control_models`](control_design/simulink)
