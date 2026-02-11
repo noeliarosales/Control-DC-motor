@@ -90,10 +90,17 @@ This stage includes:
 - MATLAB scripts:
 [`real_motor/scripts_matlab`](scripts/real_motor.mlx)
 - Images:
-[Motor real](images/Motor_real.png)
+[Real motor](images/Motor_real.png)
 
 ---
+## 5. Conclusion
 
-## 5. Conclusions
+The final integrated model was experimentally tested using the real laboratory motor.
+The results show that the motor successfully reached the desired angular position,
+confirming the validity of the developed model and control strategy.
 
+The following plot illustrates the motor response, demonstrating its convergence
+to the target angular position.
+
+![Graph](images/Graph.png)
 
