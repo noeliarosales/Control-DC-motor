@@ -102,5 +102,5 @@ confirming the validity of the developed model and control strategy.
 The following plot illustrates the motor response, demonstrating its convergence
 to the target angular position.
 
-![Graph](images/graph.png)
+![Graph](images/graph.jpg)
 
