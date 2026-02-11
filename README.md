@@ -100,7 +100,7 @@ The results show that the motor successfully reached the desired angular positio
 confirming the validity of the developed model and control strategy.
 
 The following plot illustrates the motor response, demonstrating its convergence
-to the target angular position.
+to the target angular position(800º).
 
 ![Graph](images/graph.jpg)
 
