@@ -27,15 +27,21 @@ Based on these parameters, a model of the real motor is built in Simulink, inclu
 [Encoders](images/Encoders.png)
 
 ---
-## 2. Motor Modeling and State Feedback Control
+## 2. Motor Modeling for Simulation
 
-Using the identified parameters, the motor is modeled in state-space form. State feedback control is designed and implemented, including:
-- Full-state feedback
-- State feedback using estimated states
-- Observer-based control strategies
+In this stage, the motor is modeled in order to perform realistic simulations prior to controller design.
 
-The control algorithms are implemented and tested in Simulink.
+The simulation model includes:
+- A PWM signal model representing the motor actuation
+- Encoder models for position and velocity measurement
+- A dynamic model of the motor based on the identified parameters
 
-📁 Relevant files and models:
-- Control-oriented Simulink models:  
-  [`control_models`](control_design/simulink)
+This model allows the analysis of the system behavior under different input signals and operating conditions, and serves as the basis for subsequent control design and validation.
+
+📁 Relevant files:
+- Simulink simulation models:  
+  [`simulation_models/simulink`](models/Motor_2.slx)
+
+- Images:
+[Motor block](images/Motor_block.jpg)
+[Encoders](images/Encoders.png)
