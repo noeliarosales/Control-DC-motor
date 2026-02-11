@@ -86,9 +86,8 @@ This stage includes:
 - Comparison between simulated and experimental results
 
 📁 Relevant files:
-- Simulink models: [`motor_control/simulink`](models/Motor_control.slx)
+- Simulink models: [`motor_laboratory/simulink`](models/real_motor_awp.slx)
 - MATLAB scripts:
-[`discrete_parameters/scripts_matlab`](scripts/discretization.m)
-[`matrixs/scripts_matlab`](scripts/Matrixs.mlx)
+[`real_motor/scripts_matlab`](scripts/real_motor.mlx)
 - Images:
-[Motor model](images/Motor_control.png)
+[Motor real](images/Motor_real.png)
