@@ -43,5 +43,5 @@ This model allows the analysis of the system behavior under different input sign
  [`motor_model/simulink`](models/Motor_model.slx)
 
 - Images:
-[Motor block](images/Motor_block_model.png)
 [Motor](Motor_model/Encoders.png)
+[Motor block](images/Motor_block_model.png)
