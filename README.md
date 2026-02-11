@@ -91,3 +91,9 @@ This stage includes:
 [`real_motor/scripts_matlab`](scripts/real_motor.mlx)
 - Images:
 [Motor real](images/Motor_real.png)
+
+---
+
+## 5. Conclusions
+
+
