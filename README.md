@@ -39,7 +39,7 @@ The simulation model includes:
 This model allows the analysis of the system behavior under different input signals and operating conditions, and serves as the basis for subsequent control design and validation.
 
 📁 Relevant files:
-- Simulink simulation models:  
+- Simulink models:  
  [`motor_model/simulink`](models/Motor_model.slx)
 
 - Images:
