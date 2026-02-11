@@ -64,11 +64,9 @@ The control design includes:
 These control strategies are validated through simulation prior to real-time testing.
 
 📁 Relevant files:
-- Simulink models: [`motor/simulink`](models/Motor_1.slx)
+- Simulink models: [`motor_control/simulink`](models/Motor_control.slx)
 - MATLAB scripts:
-[`discrete_parameters/scripts_matlab`](scripts/motor_identification.m)
-[`matrixs/scripts_matlab`](scripts/matrixs.mlx)
+[`discrete_parameters/scripts_matlab`](scripts/discretization.m)
+[`matrixs/scripts_matlab`](scripts/Matrixs.mlx)
 - Images:
-[Motor model](images/Motor_Simulink.jpg)
-[Motor block](images/Motor_block.jpg)
-[Encoders](images/Encoders.png)
+[Motor model](images/Motor_control.png)
