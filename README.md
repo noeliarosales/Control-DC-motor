@@ -16,7 +16,7 @@ Based on these parameters, a model of the real motor is built in Simulink, inclu
 - Interface blocks for connection with the real laboratory motor
 
 📁 Relevant files:
-- Simulink models: [`motor_model/simulink`](models/Motor_1.slx)
+- Simulink models: [`motor/simulink`](models/Motor_1.slx)
 - MATLAB scripts:
 [`parameter_identification/scripts_matlab`](scripts/motor_identification.m)
 [`parameter_identification/scripts_matlab`](scripts/motor_identification_data.mat)
@@ -40,8 +40,8 @@ This model allows the analysis of the system behavior under different input sign
 
 📁 Relevant files:
 - Simulink simulation models:  
-  [`simulation_models/simulink`](models/Motor_2.slx)
+ [`motor_model/simulink`](models/Motor_model.slx)
 
 - Images:
-[Motor block](images/Motor_block.jpg)
-[Encoders](images/Encoders.png)
+[Motor block](images/Motor_block_model.png)
+[Motor](Motor_model/Encoders.png)
