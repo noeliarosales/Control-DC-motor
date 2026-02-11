@@ -27,6 +27,7 @@ Based on these parameters, a model of the real motor is built in Simulink, inclu
 [Encoders](images/Encoders.png)
 
 ---
+
 ## 2. Motor Modeling for Simulation
 
 In this stage, the motor is modeled in order to perform realistic simulations prior to controller design.
@@ -45,3 +46,29 @@ This model allows the analysis of the system behavior under different input sign
 - Images:
 [Motor](Motor_model/Encoders.png)
 [Motor block](images/Motor_block_model.png)
+
+--
+
+## 3. Discrete-Time Control with Integral Action and Estimated States
+
+In this stage, control strategies are designed based on the discretized motor model.
+
+An integral action is added to the controller in order to eliminate steady-state error and improve tracking performance. In addition, state feedback using estimated states is implemented, allowing control when not all system states are directly measurable.
+
+The control design includes:
+- Discretization of the continuous-time motor model
+- State feedback with integral action
+- Discrete-time state feedback using estimated states
+- Observer-based control implementation
+
+These control strategies are validated through simulation prior to real-time testing.
+
+📁 Relevant files:
+- Simulink models: [`motor/simulink`](models/Motor_1.slx)
+- MATLAB scripts:
+[`discrete_parameters/scripts_matlab`](scripts/motor_identification.m)
+[`matrixs/scripts_matlab`](scripts/matrixs.mlx)
+- Images:
+[Motor model](images/Motor_Simulink.jpg)
+[Motor block](images/Motor_block.jpg)
+[Encoders](images/Encoders.png)
