@@ -47,7 +47,7 @@ This model allows the analysis of the system behavior under different input sign
 [Motor](Motor_model/Encoders.png)
 [Motor block](images/Motor_block_model.png)
 
---
+---
 
 ## 3. Discrete-Time Control with Integral Action and Estimated States
 
@@ -62,6 +62,28 @@ The control design includes:
 - Observer-based control implementation
 
 These control strategies are validated through simulation prior to real-time testing.
+
+📁 Relevant files:
+- Simulink models: [`motor_control/simulink`](models/Motor_control.slx)
+- MATLAB scripts:
+[`discrete_parameters/scripts_matlab`](scripts/discretization.m)
+[`matrixs/scripts_matlab`](scripts/Matrixs.mlx)
+- Images:
+[Motor model](images/Motor_control.png)
+
+---
+
+## 4. Experimental Validation with the Real Motor and Anti-Windup Implementation
+
+In the final stage, the simulated motor model used in Section 3 is replaced by the real DC motor in order to experimentally validate the proposed control strategies in the laboratory.
+
+The controller designed in the previous stage is directly applied to the real system, allowing the evaluation of its performance under real operating conditions. To ensure proper behavior in the presence of actuator saturation, an anti-windup block is added to the control architecture.
+
+This stage includes:
+- Replacement of the simulated motor model with the real motor
+- Experimental validation of the discrete-time control strategies
+- Implementation of an anti-windup mechanism to prevent integrator saturation
+- Comparison between simulated and experimental results
 
 📁 Relevant files:
 - Simulink models: [`motor_control/simulink`](models/Motor_control.slx)
