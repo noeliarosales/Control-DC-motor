@@ -2,7 +2,7 @@
 
 This repository presents the modeling, identification, and real-time control of a DC motor using MATLAB/Simulink and laboratory hardware.
 
-The project is structured in three main stages, progressing from parameter identification to real-time validation.
+The project is structured in four main stages, progressing from parameter identification to real-time validation.
 
 ---
 
